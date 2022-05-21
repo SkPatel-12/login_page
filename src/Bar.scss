@@ -1,0 +1,47 @@
+.body {
+  background-color:lightcyan;
+  height: 100vh;
+}
+
+.bar
+{
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+    padding: 125px;
+}
+
+.bar > rect {
+    stroke-opacity:0.5;
+    stroke: gray;
+    stroke-width: 2;
+  }
+
+  #chart {
+    background-color:transparent;
+  }
+
+  //text on axis
+  .x-axis > .tick > text {
+    font-size: 20px;
+  }
+  .y-axis > .tick > text {
+    font-size: 20px;
+  }
+
+.btn
+{
+    margin-top: 50px;
+    color: white;
+    background-color: deepskyblue;
+    width: 20%;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover
+{
+  background-color: green;
+}

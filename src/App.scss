@@ -1,0 +1,126 @@
+// .App {
+//   text-align: center;
+// }
+
+// .App-logo {
+//   height: 40vmin;
+//   pointer-events: none;
+// }
+
+// @media (prefers-reduced-motion: no-preference) {
+//   .App-logo {
+//     animation: App-logo-spin infinite 20s linear;
+//   }
+// }
+
+// .App-header {
+//   background-color: #282c34;
+//   min-height: 100vh;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+//   font-size: calc(10px + 2vmin);
+//   color: white;
+// }
+
+// .App-link {
+//   color: #61dafb;
+// }
+
+// @keyframes App-logo-spin {
+//   from {
+//     transform: rotate(0deg);
+//   }
+//   to {
+//     transform: rotate(360deg);
+//   }
+// }
+
+// scss variable
+
+$width:50%;
+$height:100vh;
+
+$leftmar:100px;
+
+$text:center;
+
+.main
+{
+  margin: none;
+  padding: none;
+}
+.main__right
+{
+  float: right;
+  width: $width;
+  height:$height;
+  
+}
+
+input
+{
+  background: transparent;
+  width: 40%;
+  height: 30px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  margin-left: $leftmar;
+}
+.right__p
+{
+  font-size: 20px;
+  margin-left: $leftmar;
+}
+
+.right__p--span
+{
+  color: red;
+  margin-left: $leftmar;
+}
+
+h1
+{
+  margin-left: $leftmar;
+  // padding-top: 50px;
+}
+.right__btn
+{
+  margin-top: 30px;
+  color: white;
+  background-color:deepskyblue;
+  width: 25%;
+  height: 40px;
+  border-radius: 5px;
+  margin-left: $leftmar;
+  border: none;
+  font-size: 20px;
+}
+
+
+.main__left
+{
+  width: $width;
+  height:$height;
+  float: left;
+  background-image:url("graph.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 50% 100%;
+}
+.left img
+{
+  width: 20vh;
+  height:$height;
+}
+
+.left__h2
+{
+  margin-top: 700px;
+  text-align: $text;
+}
+.left__p
+{
+  text-align:$text;
+}
